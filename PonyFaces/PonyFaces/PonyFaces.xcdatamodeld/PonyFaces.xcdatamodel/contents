@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="8195" systemVersion="14F27" minimumToolsVersion="Automatic">
+    <entity name="PonyCategory" representedClassName="PonyCategory" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="relationship" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PonyFace" inverseName="category" inverseEntity="PonyFace" syncable="YES"/>
+    </entity>
+    <entity name="PonyFace" representedClassName="PonyFace" syncable="YES">
+        <attribute name="enabled" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="image" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="link" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="thumbnail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="views" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="category" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PonyCategory" inverseName="relationship" inverseEntity="PonyCategory" syncable="YES"/>
+        <relationship name="tags" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="PonyTag" inverseName="relationship" inverseEntity="PonyTag" syncable="YES"/>
+    </entity>
+    <entity name="PonyTag" representedClassName="PonyTag" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="relationship" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PonyFace" inverseName="tags" inverseEntity="PonyFace" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="PonyCategory" positionX="270" positionY="252" width="128" height="90"/>
+        <element name="PonyFace" positionX="261" positionY="198" width="128" height="165"/>
+        <element name="PonyTag" positionX="288" positionY="261" width="128" height="75"/>
+    </elements>
+</model>

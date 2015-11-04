@@ -1,0 +1,751 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		98C10ADBFC05D433B086B4C7 /* libPods-PonyFaces.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1585EF839BCD4051A513B5E /* libPods-PonyFaces.a */; };
+		AC08CC051BE9A44E009B546D /* PonyCategory+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = AC08CBFA1BE9A44E009B546D /* PonyCategory+CoreDataProperties.m */; settings = {ASSET_TAGS = (); }; };
+		AC08CC061BE9A44E009B546D /* PonyCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = AC08CBFC1BE9A44E009B546D /* PonyCategory.m */; settings = {ASSET_TAGS = (); }; };
+		AC08CC071BE9A44E009B546D /* PonyFace+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = AC08CBFE1BE9A44E009B546D /* PonyFace+CoreDataProperties.m */; settings = {ASSET_TAGS = (); }; };
+		AC08CC081BE9A44E009B546D /* PonyFace.m in Sources */ = {isa = PBXBuildFile; fileRef = AC08CC001BE9A44E009B546D /* PonyFace.m */; settings = {ASSET_TAGS = (); }; };
+		AC08CC091BE9A44E009B546D /* PonyTag+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = AC08CC021BE9A44E009B546D /* PonyTag+CoreDataProperties.m */; settings = {ASSET_TAGS = (); }; };
+		AC08CC0A1BE9A44E009B546D /* PonyTag.m in Sources */ = {isa = PBXBuildFile; fileRef = AC08CC041BE9A44E009B546D /* PonyTag.m */; settings = {ASSET_TAGS = (); }; };
+		AC08CC0E1BE9A99B009B546D /* SearchResultsDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = AC08CC0D1BE9A99B009B546D /* SearchResultsDataSource.m */; settings = {ASSET_TAGS = (); }; };
+		AC08CC121BE9D540009B546D /* FavoritesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC08CC111BE9D540009B546D /* FavoritesTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		AC08CC151BE9D673009B546D /* FavsDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = AC08CC141BE9D673009B546D /* FavsDataSource.m */; settings = {ASSET_TAGS = (); }; };
+		ACC730FC1BE56CA0001BAD19 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ACC730FB1BE56CA0001BAD19 /* main.m */; };
+		ACC730FF1BE56CA0001BAD19 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ACC730FE1BE56CA0001BAD19 /* AppDelegate.m */; };
+		ACC731021BE56CA0001BAD19 /* PonyFaces.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ACC731001BE56CA0001BAD19 /* PonyFaces.xcdatamodeld */; };
+		ACC7310B1BE56CA0001BAD19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACC731091BE56CA0001BAD19 /* Main.storyboard */; };
+		ACC7310D1BE56CA0001BAD19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACC7310C1BE56CA0001BAD19 /* Assets.xcassets */; };
+		ACC731101BE56CA0001BAD19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACC7310E1BE56CA0001BAD19 /* LaunchScreen.storyboard */; };
+		ACC7311B1BE56CA0001BAD19 /* PonyFacesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ACC7311A1BE56CA0001BAD19 /* PonyFacesTests.m */; };
+		ACC731261BE56CA0001BAD19 /* PonyFacesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ACC731251BE56CA0001BAD19 /* PonyFacesUITests.m */; };
+		ACE95CAB1BE691100060E526 /* PonySearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACE95CAA1BE691100060E526 /* PonySearchViewController.m */; settings = {ASSET_TAGS = (); }; };
+		ACE95CAF1BE696360060E526 /* FileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ACE95CAE1BE696360060E526 /* FileManager.m */; settings = {ASSET_TAGS = (); }; };
+		ACE95CB41BE6A25C0060E526 /* NSDictionary+ponyface.m in Sources */ = {isa = PBXBuildFile; fileRef = ACE95CB11BE6A25C0060E526 /* NSDictionary+ponyface.m */; settings = {ASSET_TAGS = (); }; };
+		ACE95CB51BE6A25C0060E526 /* NSDictionary+ponyfaces_search.m in Sources */ = {isa = PBXBuildFile; fileRef = ACE95CB31BE6A25C0060E526 /* NSDictionary+ponyfaces_search.m */; settings = {ASSET_TAGS = (); }; };
+		ACE95CB81BE83A0D0060E526 /* NetworkActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACE95CB71BE83A0D0060E526 /* NetworkActivityViewController.m */; settings = {ASSET_TAGS = (); }; };
+		ACE95CBE1BE92A310060E526 /* PonyfacesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACE95CBD1BE92A310060E526 /* PonyfacesTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		ACE95CC11BE934E60060E526 /* PonyfaceDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACE95CC01BE934E60060E526 /* PonyfaceDetailViewController.m */; settings = {ASSET_TAGS = (); }; };
+		ACE95CD81BE993000060E526 /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ACE95CD71BE993000060E526 /* DataManager.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACC731171BE56CA0001BAD19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACC730EF1BE56CA0001BAD19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACC730F61BE56CA0001BAD19;
+			remoteInfo = PonyFaces;
+		};
+		ACC731221BE56CA0001BAD19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACC730EF1BE56CA0001BAD19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACC730F61BE56CA0001BAD19;
+			remoteInfo = PonyFaces;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		94274566500C6D6E17FBA095 /* Pods-PonyFaces.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PonyFaces.release.xcconfig"; path = "Pods/Target Support Files/Pods-PonyFaces/Pods-PonyFaces.release.xcconfig"; sourceTree = "<group>"; };
+		AC08CBF91BE9A44E009B546D /* PonyCategory+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PonyCategory+CoreDataProperties.h"; sourceTree = "<group>"; };
+		AC08CBFA1BE9A44E009B546D /* PonyCategory+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PonyCategory+CoreDataProperties.m"; sourceTree = "<group>"; };
+		AC08CBFB1BE9A44E009B546D /* PonyCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PonyCategory.h; sourceTree = "<group>"; };
+		AC08CBFC1BE9A44E009B546D /* PonyCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PonyCategory.m; sourceTree = "<group>"; };
+		AC08CBFD1BE9A44E009B546D /* PonyFace+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PonyFace+CoreDataProperties.h"; sourceTree = "<group>"; };
+		AC08CBFE1BE9A44E009B546D /* PonyFace+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PonyFace+CoreDataProperties.m"; sourceTree = "<group>"; };
+		AC08CBFF1BE9A44E009B546D /* PonyFace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PonyFace.h; sourceTree = "<group>"; };
+		AC08CC001BE9A44E009B546D /* PonyFace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PonyFace.m; sourceTree = "<group>"; };
+		AC08CC011BE9A44E009B546D /* PonyTag+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PonyTag+CoreDataProperties.h"; sourceTree = "<group>"; };
+		AC08CC021BE9A44E009B546D /* PonyTag+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PonyTag+CoreDataProperties.m"; sourceTree = "<group>"; };
+		AC08CC031BE9A44E009B546D /* PonyTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PonyTag.h; sourceTree = "<group>"; };
+		AC08CC041BE9A44E009B546D /* PonyTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PonyTag.m; sourceTree = "<group>"; };
+		AC08CC0C1BE9A99B009B546D /* SearchResultsDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchResultsDataSource.h; sourceTree = "<group>"; };
+		AC08CC0D1BE9A99B009B546D /* SearchResultsDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchResultsDataSource.m; sourceTree = "<group>"; };
+		AC08CC0F1BE9ACAE009B546D /* PonyFacesDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PonyFacesDataSource.h; sourceTree = "<group>"; };
+		AC08CC101BE9D540009B546D /* FavoritesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoritesTableViewController.h; sourceTree = "<group>"; };
+		AC08CC111BE9D540009B546D /* FavoritesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoritesTableViewController.m; sourceTree = "<group>"; };
+		AC08CC131BE9D673009B546D /* FavsDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavsDataSource.h; sourceTree = "<group>"; };
+		AC08CC141BE9D673009B546D /* FavsDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavsDataSource.m; sourceTree = "<group>"; };
+		ACC730F71BE56CA0001BAD19 /* PonyFaces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PonyFaces.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACC730FB1BE56CA0001BAD19 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ACC730FD1BE56CA0001BAD19 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ACC730FE1BE56CA0001BAD19 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ACC731011BE56CA0001BAD19 /* PonyFaces.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PonyFaces.xcdatamodel; sourceTree = "<group>"; };
+		ACC7310A1BE56CA0001BAD19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACC7310C1BE56CA0001BAD19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACC7310F1BE56CA0001BAD19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ACC731111BE56CA0001BAD19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACC731161BE56CA0001BAD19 /* PonyFacesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PonyFacesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACC7311A1BE56CA0001BAD19 /* PonyFacesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PonyFacesTests.m; sourceTree = "<group>"; };
+		ACC7311C1BE56CA0001BAD19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACC731211BE56CA0001BAD19 /* PonyFacesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PonyFacesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACC731251BE56CA0001BAD19 /* PonyFacesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PonyFacesUITests.m; sourceTree = "<group>"; };
+		ACC731271BE56CA0001BAD19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACE95CA91BE691100060E526 /* PonySearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PonySearchViewController.h; sourceTree = "<group>"; };
+		ACE95CAA1BE691100060E526 /* PonySearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PonySearchViewController.m; sourceTree = "<group>"; };
+		ACE95CAC1BE694D30060E526 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		ACE95CAD1BE696360060E526 /* FileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileManager.h; sourceTree = "<group>"; };
+		ACE95CAE1BE696360060E526 /* FileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileManager.m; sourceTree = "<group>"; };
+		ACE95CB01BE6A25C0060E526 /* NSDictionary+ponyface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+ponyface.h"; sourceTree = "<group>"; };
+		ACE95CB11BE6A25C0060E526 /* NSDictionary+ponyface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+ponyface.m"; sourceTree = "<group>"; };
+		ACE95CB21BE6A25C0060E526 /* NSDictionary+ponyfaces_search.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+ponyfaces_search.h"; sourceTree = "<group>"; };
+		ACE95CB31BE6A25C0060E526 /* NSDictionary+ponyfaces_search.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+ponyfaces_search.m"; sourceTree = "<group>"; };
+		ACE95CB61BE83A0D0060E526 /* NetworkActivityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkActivityViewController.h; sourceTree = "<group>"; };
+		ACE95CB71BE83A0D0060E526 /* NetworkActivityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkActivityViewController.m; sourceTree = "<group>"; };
+		ACE95CBC1BE92A310060E526 /* PonyfacesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PonyfacesTableViewController.h; sourceTree = "<group>"; };
+		ACE95CBD1BE92A310060E526 /* PonyfacesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PonyfacesTableViewController.m; sourceTree = "<group>"; };
+		ACE95CBF1BE934E60060E526 /* PonyfaceDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PonyfaceDetailViewController.h; sourceTree = "<group>"; };
+		ACE95CC01BE934E60060E526 /* PonyfaceDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PonyfaceDetailViewController.m; sourceTree = "<group>"; };
+		ACE95CD61BE993000060E526 /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		ACE95CD71BE993000060E526 /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		C1585EF839BCD4051A513B5E /* libPods-PonyFaces.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PonyFaces.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDF0A90918D37DA8C123301B /* Pods-PonyFaces.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PonyFaces.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PonyFaces/Pods-PonyFaces.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACC730F41BE56CA0001BAD19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98C10ADBFC05D433B086B4C7 /* libPods-PonyFaces.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACC731131BE56CA0001BAD19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACC7311E1BE56CA0001BAD19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		202647D172C424C9F7C2C05B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EDF0A90918D37DA8C123301B /* Pods-PonyFaces.debug.xcconfig */,
+				94274566500C6D6E17FBA095 /* Pods-PonyFaces.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4BB1F9BB13FBCB97000B206D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C1585EF839BCD4051A513B5E /* libPods-PonyFaces.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC08CC0B1BE9A934009B546D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ACE95CBC1BE92A310060E526 /* PonyfacesTableViewController.h */,
+				ACE95CBD1BE92A310060E526 /* PonyfacesTableViewController.m */,
+				AC08CC101BE9D540009B546D /* FavoritesTableViewController.h */,
+				AC08CC111BE9D540009B546D /* FavoritesTableViewController.m */,
+				ACE95CA91BE691100060E526 /* PonySearchViewController.h */,
+				ACE95CAA1BE691100060E526 /* PonySearchViewController.m */,
+				ACE95CB61BE83A0D0060E526 /* NetworkActivityViewController.h */,
+				ACE95CB71BE83A0D0060E526 /* NetworkActivityViewController.m */,
+				ACE95CBF1BE934E60060E526 /* PonyfaceDetailViewController.h */,
+				ACE95CC01BE934E60060E526 /* PonyfaceDetailViewController.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		AC08CC161BE9D692009B546D /* DataSources */ = {
+			isa = PBXGroup;
+			children = (
+				AC08CC0F1BE9ACAE009B546D /* PonyFacesDataSource.h */,
+				AC08CC0C1BE9A99B009B546D /* SearchResultsDataSource.h */,
+				AC08CC0D1BE9A99B009B546D /* SearchResultsDataSource.m */,
+				AC08CC131BE9D673009B546D /* FavsDataSource.h */,
+				AC08CC141BE9D673009B546D /* FavsDataSource.m */,
+			);
+			name = DataSources;
+			sourceTree = "<group>";
+		};
+		AC08CC171BE9E708009B546D /* Values */ = {
+			isa = PBXGroup;
+			children = (
+				ACE95CAC1BE694D30060E526 /* Constants.h */,
+			);
+			name = Values;
+			sourceTree = "<group>";
+		};
+		ACC730EE1BE56CA0001BAD19 = {
+			isa = PBXGroup;
+			children = (
+				ACC730F91BE56CA0001BAD19 /* PonyFaces */,
+				ACC731191BE56CA0001BAD19 /* PonyFacesTests */,
+				ACC731241BE56CA0001BAD19 /* PonyFacesUITests */,
+				ACC730F81BE56CA0001BAD19 /* Products */,
+				202647D172C424C9F7C2C05B /* Pods */,
+				4BB1F9BB13FBCB97000B206D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ACC730F81BE56CA0001BAD19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACC730F71BE56CA0001BAD19 /* PonyFaces.app */,
+				ACC731161BE56CA0001BAD19 /* PonyFacesTests.xctest */,
+				ACC731211BE56CA0001BAD19 /* PonyFacesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACC730F91BE56CA0001BAD19 /* PonyFaces */ = {
+			isa = PBXGroup;
+			children = (
+				ACE95CA81BE691000060E526 /* source */,
+				ACC730FD1BE56CA0001BAD19 /* AppDelegate.h */,
+				ACC730FE1BE56CA0001BAD19 /* AppDelegate.m */,
+				ACC731091BE56CA0001BAD19 /* Main.storyboard */,
+				ACC7310C1BE56CA0001BAD19 /* Assets.xcassets */,
+				ACC7310E1BE56CA0001BAD19 /* LaunchScreen.storyboard */,
+				ACC731111BE56CA0001BAD19 /* Info.plist */,
+				ACC731001BE56CA0001BAD19 /* PonyFaces.xcdatamodeld */,
+				ACC730FA1BE56CA0001BAD19 /* Supporting Files */,
+			);
+			path = PonyFaces;
+			sourceTree = "<group>";
+		};
+		ACC730FA1BE56CA0001BAD19 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ACC730FB1BE56CA0001BAD19 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ACC731191BE56CA0001BAD19 /* PonyFacesTests */ = {
+			isa = PBXGroup;
+			children = (
+				ACC7311A1BE56CA0001BAD19 /* PonyFacesTests.m */,
+				ACC7311C1BE56CA0001BAD19 /* Info.plist */,
+			);
+			path = PonyFacesTests;
+			sourceTree = "<group>";
+		};
+		ACC731241BE56CA0001BAD19 /* PonyFacesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ACC731251BE56CA0001BAD19 /* PonyFacesUITests.m */,
+				ACC731271BE56CA0001BAD19 /* Info.plist */,
+			);
+			path = PonyFacesUITests;
+			sourceTree = "<group>";
+		};
+		ACE95CA81BE691000060E526 /* source */ = {
+			isa = PBXGroup;
+			children = (
+				AC08CC171BE9E708009B546D /* Values */,
+				ACE95CD51BE992D20060E526 /* Managers */,
+				ACE95CD41BE98BD40060E526 /* Data Model */,
+				AC08CC161BE9D692009B546D /* DataSources */,
+				AC08CC0B1BE9A934009B546D /* Views */,
+			);
+			path = source;
+			sourceTree = "<group>";
+		};
+		ACE95CD41BE98BD40060E526 /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				ACE95CB01BE6A25C0060E526 /* NSDictionary+ponyface.h */,
+				ACE95CB11BE6A25C0060E526 /* NSDictionary+ponyface.m */,
+				ACE95CB21BE6A25C0060E526 /* NSDictionary+ponyfaces_search.h */,
+				ACE95CB31BE6A25C0060E526 /* NSDictionary+ponyfaces_search.m */,
+				AC08CBF91BE9A44E009B546D /* PonyCategory+CoreDataProperties.h */,
+				AC08CBFA1BE9A44E009B546D /* PonyCategory+CoreDataProperties.m */,
+				AC08CBFB1BE9A44E009B546D /* PonyCategory.h */,
+				AC08CBFC1BE9A44E009B546D /* PonyCategory.m */,
+				AC08CBFD1BE9A44E009B546D /* PonyFace+CoreDataProperties.h */,
+				AC08CBFE1BE9A44E009B546D /* PonyFace+CoreDataProperties.m */,
+				AC08CBFF1BE9A44E009B546D /* PonyFace.h */,
+				AC08CC001BE9A44E009B546D /* PonyFace.m */,
+				AC08CC011BE9A44E009B546D /* PonyTag+CoreDataProperties.h */,
+				AC08CC021BE9A44E009B546D /* PonyTag+CoreDataProperties.m */,
+				AC08CC031BE9A44E009B546D /* PonyTag.h */,
+				AC08CC041BE9A44E009B546D /* PonyTag.m */,
+			);
+			name = "Data Model";
+			sourceTree = "<group>";
+		};
+		ACE95CD51BE992D20060E526 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				ACE95CAD1BE696360060E526 /* FileManager.h */,
+				ACE95CAE1BE696360060E526 /* FileManager.m */,
+				ACE95CD61BE993000060E526 /* DataManager.h */,
+				ACE95CD71BE993000060E526 /* DataManager.m */,
+			);
+			name = Managers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACC730F61BE56CA0001BAD19 /* PonyFaces */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACC7312A1BE56CA0001BAD19 /* Build configuration list for PBXNativeTarget "PonyFaces" */;
+			buildPhases = (
+				E14CF57D80239DF023E1E7E1 /* Check Pods Manifest.lock */,
+				ACC730F31BE56CA0001BAD19 /* Sources */,
+				ACC730F41BE56CA0001BAD19 /* Frameworks */,
+				ACC730F51BE56CA0001BAD19 /* Resources */,
+				DFDCFF1A8AF802408CED4FAC /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PonyFaces;
+			productName = PonyFaces;
+			productReference = ACC730F71BE56CA0001BAD19 /* PonyFaces.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACC731151BE56CA0001BAD19 /* PonyFacesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACC7312D1BE56CA0001BAD19 /* Build configuration list for PBXNativeTarget "PonyFacesTests" */;
+			buildPhases = (
+				ACC731121BE56CA0001BAD19 /* Sources */,
+				ACC731131BE56CA0001BAD19 /* Frameworks */,
+				ACC731141BE56CA0001BAD19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACC731181BE56CA0001BAD19 /* PBXTargetDependency */,
+			);
+			name = PonyFacesTests;
+			productName = PonyFacesTests;
+			productReference = ACC731161BE56CA0001BAD19 /* PonyFacesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ACC731201BE56CA0001BAD19 /* PonyFacesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACC731301BE56CA0001BAD19 /* Build configuration list for PBXNativeTarget "PonyFacesUITests" */;
+			buildPhases = (
+				ACC7311D1BE56CA0001BAD19 /* Sources */,
+				ACC7311E1BE56CA0001BAD19 /* Frameworks */,
+				ACC7311F1BE56CA0001BAD19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACC731231BE56CA0001BAD19 /* PBXTargetDependency */,
+			);
+			name = PonyFacesUITests;
+			productName = PonyFacesUITests;
+			productReference = ACC731211BE56CA0001BAD19 /* PonyFacesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACC730EF1BE56CA0001BAD19 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Kain;
+				TargetAttributes = {
+					ACC730F61BE56CA0001BAD19 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = LR3D5ZYZX3;
+					};
+					ACC731151BE56CA0001BAD19 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = ACC730F61BE56CA0001BAD19;
+					};
+					ACC731201BE56CA0001BAD19 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = ACC730F61BE56CA0001BAD19;
+					};
+				};
+			};
+			buildConfigurationList = ACC730F21BE56CA0001BAD19 /* Build configuration list for PBXProject "PonyFaces" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACC730EE1BE56CA0001BAD19;
+			productRefGroup = ACC730F81BE56CA0001BAD19 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACC730F61BE56CA0001BAD19 /* PonyFaces */,
+				ACC731151BE56CA0001BAD19 /* PonyFacesTests */,
+				ACC731201BE56CA0001BAD19 /* PonyFacesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACC730F51BE56CA0001BAD19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACC731101BE56CA0001BAD19 /* LaunchScreen.storyboard in Resources */,
+				ACC7310D1BE56CA0001BAD19 /* Assets.xcassets in Resources */,
+				ACC7310B1BE56CA0001BAD19 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACC731141BE56CA0001BAD19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACC7311F1BE56CA0001BAD19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DFDCFF1A8AF802408CED4FAC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PonyFaces/Pods-PonyFaces-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E14CF57D80239DF023E1E7E1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACC730F31BE56CA0001BAD19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACE95CC11BE934E60060E526 /* PonyfaceDetailViewController.m in Sources */,
+				AC08CC0E1BE9A99B009B546D /* SearchResultsDataSource.m in Sources */,
+				ACE95CB81BE83A0D0060E526 /* NetworkActivityViewController.m in Sources */,
+				ACE95CD81BE993000060E526 /* DataManager.m in Sources */,
+				AC08CC121BE9D540009B546D /* FavoritesTableViewController.m in Sources */,
+				AC08CC0A1BE9A44E009B546D /* PonyTag.m in Sources */,
+				ACE95CAB1BE691100060E526 /* PonySearchViewController.m in Sources */,
+				AC08CC091BE9A44E009B546D /* PonyTag+CoreDataProperties.m in Sources */,
+				AC08CC081BE9A44E009B546D /* PonyFace.m in Sources */,
+				ACC730FF1BE56CA0001BAD19 /* AppDelegate.m in Sources */,
+				ACC730FC1BE56CA0001BAD19 /* main.m in Sources */,
+				ACE95CAF1BE696360060E526 /* FileManager.m in Sources */,
+				ACE95CBE1BE92A310060E526 /* PonyfacesTableViewController.m in Sources */,
+				AC08CC071BE9A44E009B546D /* PonyFace+CoreDataProperties.m in Sources */,
+				AC08CC151BE9D673009B546D /* FavsDataSource.m in Sources */,
+				ACC731021BE56CA0001BAD19 /* PonyFaces.xcdatamodeld in Sources */,
+				AC08CC051BE9A44E009B546D /* PonyCategory+CoreDataProperties.m in Sources */,
+				ACE95CB41BE6A25C0060E526 /* NSDictionary+ponyface.m in Sources */,
+				AC08CC061BE9A44E009B546D /* PonyCategory.m in Sources */,
+				ACE95CB51BE6A25C0060E526 /* NSDictionary+ponyfaces_search.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACC731121BE56CA0001BAD19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACC7311B1BE56CA0001BAD19 /* PonyFacesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACC7311D1BE56CA0001BAD19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACC731261BE56CA0001BAD19 /* PonyFacesUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACC731181BE56CA0001BAD19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACC730F61BE56CA0001BAD19 /* PonyFaces */;
+			targetProxy = ACC731171BE56CA0001BAD19 /* PBXContainerItemProxy */;
+		};
+		ACC731231BE56CA0001BAD19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACC730F61BE56CA0001BAD19 /* PonyFaces */;
+			targetProxy = ACC731221BE56CA0001BAD19 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ACC731091BE56CA0001BAD19 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACC7310A1BE56CA0001BAD19 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ACC7310E1BE56CA0001BAD19 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACC7310F1BE56CA0001BAD19 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACC731281BE56CA0001BAD19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ACC731291BE56CA0001BAD19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACC7312B1BE56CA0001BAD19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDF0A90918D37DA8C123301B /* Pods-PonyFaces.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = PonyFaces/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kainosterholt.PonyFaces;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ACC7312C1BE56CA0001BAD19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94274566500C6D6E17FBA095 /* Pods-PonyFaces.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = PonyFaces/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kainosterholt.PonyFaces;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ACC7312E1BE56CA0001BAD19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PonyFacesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kainosterholt.PonyFacesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PonyFaces.app/PonyFaces";
+			};
+			name = Debug;
+		};
+		ACC7312F1BE56CA0001BAD19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PonyFacesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kainosterholt.PonyFacesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PonyFaces.app/PonyFaces";
+			};
+			name = Release;
+		};
+		ACC731311BE56CA0001BAD19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PonyFacesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kainosterholt.PonyFacesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PonyFaces;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		ACC731321BE56CA0001BAD19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PonyFacesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kainosterholt.PonyFacesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PonyFaces;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACC730F21BE56CA0001BAD19 /* Build configuration list for PBXProject "PonyFaces" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACC731281BE56CA0001BAD19 /* Debug */,
+				ACC731291BE56CA0001BAD19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACC7312A1BE56CA0001BAD19 /* Build configuration list for PBXNativeTarget "PonyFaces" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACC7312B1BE56CA0001BAD19 /* Debug */,
+				ACC7312C1BE56CA0001BAD19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACC7312D1BE56CA0001BAD19 /* Build configuration list for PBXNativeTarget "PonyFacesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACC7312E1BE56CA0001BAD19 /* Debug */,
+				ACC7312F1BE56CA0001BAD19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACC731301BE56CA0001BAD19 /* Build configuration list for PBXNativeTarget "PonyFacesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACC731311BE56CA0001BAD19 /* Debug */,
+				ACC731321BE56CA0001BAD19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ACC731001BE56CA0001BAD19 /* PonyFaces.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ACC731011BE56CA0001BAD19 /* PonyFaces.xcdatamodel */,
+			);
+			currentVersion = ACC731011BE56CA0001BAD19 /* PonyFaces.xcdatamodel */;
+			path = PonyFaces.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = ACC730EF1BE56CA0001BAD19 /* Project object */;
+}
